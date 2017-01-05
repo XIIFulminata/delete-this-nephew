@@ -1,0 +1,112 @@
+#intro {
+    margin-top: 100px;
+}
+
+#intro h2, h1 {
+    text-align: center;
+}
+
+.project a img {
+    width: 200px;
+    height: 150px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+    padding: 5px;
+}
+
+.project {
+    margin: 25px;
+}
+
+#portfolio {
+    float:left;
+}
+
+.thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border: 0;
+    margin-bottom: 0;
+}
+
+#toolsList {
+    height: 35px;
+    padding: 2px;
+    margin: 0;
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.projectDescription {
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0;
+    text-align: left;
+    padding: 2px;
+    
+}
+
+.projectName {
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 0;
+    padding-left: 2px;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+.navbar {
+    background-color:white;
+    box-shadow: 0 0 0 1px #888888;
+    position: fixed;
+    width: 100%;
+    border-radius: 0;
+}
+
+#projects div {
+    
+}
+
+#testDiv {
+    border: 0;
+    padding: 0;
+    box-shadow: 1px 1px 1px 1px #888888;
+    
+}
+
+#testDiv:hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.row {
+    padding-top: 50px;
+}
+
+#footer {
+
+}
+
+footer {
+    background-color: white;
+    box-shadow: 0 -1px 0 0 #888888;
+    padding: 0;
+    
+}
+
+#aboutSection {
+    margin-bottom: 10px;
+}

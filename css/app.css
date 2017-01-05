@@ -17,7 +17,7 @@ ul {
 
 li {
     float: left;
-    padding: 5px;
+    padding: 5px 15px 5px 15px;
 }
 
 .project {
@@ -86,11 +86,14 @@ body {
     border: 0;
     padding: 0;
     box-shadow: 1px 1px 1px 1px #888888;
+    color: white;
     
 }
 
-#testDiv:hover {
+#testDiv:hover{
     box-shadow: 5px 5px 5px 5px #888888;
+    color: grey;
+
 }
 .row {
     padding-top: 50px;
@@ -109,4 +112,12 @@ footer {
 
 #aboutSection {
     margin-bottom: 10px;
+}
+
+.projectName, .projectDescription {
+   padding-left: 15px;
+}
+
+img {
+    
 }

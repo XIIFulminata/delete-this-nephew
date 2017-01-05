@@ -39,6 +39,10 @@ li {
     margin-bottom: 0;
 }
 
+.wideThumbnail {
+    
+}
+
 #toolsList {
     height: 35px;
     padding: 2px;
@@ -118,6 +122,14 @@ footer {
    padding-left: 15px;
 }
 
-img {
-    
+@media only screen and (max-width: 1024px) {
+    .wideThumbnail {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .squareThumbnail {
+        display: none;
+    }
 }

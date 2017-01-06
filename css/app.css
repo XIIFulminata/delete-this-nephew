@@ -133,3 +133,8 @@ footer {
         display: none;
     }
 }
+
+.toolsUsed {
+    width: 20px;
+    height: 20px;
+}

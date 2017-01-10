@@ -158,9 +158,5 @@ p , h1, h4, h6, li {
 }*/
 
 #navHomeLink {
-    padding: 20px 0 15px 15px;
-}
-
-.navButton h6 {
-    margin-bottom: 0;
+    padding: 15px 20px 0 15px;
 }

@@ -22,6 +22,8 @@
     <!-- Theme CSS -->
     <link rel="stylesheet" href="css/foundation.css">
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +43,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">
+                <a class="navbar-brand navButton" id="navHomeLink" href="index.html">
                     <span class="light"><h5><b>J<img src="img/gear.png" style="width:20px; height:auto">vaun Jacks<img src="img/gear.png" style="width:20px; height:auto">n</b></h5></span>
                 </a>
             </div>
@@ -55,16 +57,16 @@
                     </li>
                     
                     <li>
-                        <a class="page-scroll" href="index.html"><h6>Projects</h6></a>
+                        <a class="navButton" href="index.html"><h6>Projects</h6></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#experience"><h6>Experience</h6></a>
+                        <a class="navButton" href="#experience"><h6>Experience</h6></a>
                     </li>
                      <li>
-                        <a class="page-scroll" href="ref/resume.pdf"><h6>Resume</h6></a>
+                        <a class="navButton" href="ref/resume.pdf"><h6>Resume</h6></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="about.html"><h6>About Me</h6></a>
+                        <a class="navButton" href="about.html"><h6>About Me</h6></a>
                     </li>
                 </ul>
             </div>
@@ -85,11 +87,11 @@
     
         <ul id="toolsList">
             <li>C</li>
-            <li><img class="toolsUsed" src="img/python.ico"></li>
+            <li style="padding-bottom: 0;"><img class="toolsUsed" src="img/python.ico">Python</li>
             <li>Arduino</li>
             <li>Hand Tools</li>
         </ul>
-        <h4 class="projectName">Wizard's Chess</h4>
+        <h4 class="projectName">Automated Wizard's Chess</h4>
         <p class="projectDescription">Frosts cakes with 3-axis motion</p>
           </div>
   </div>
@@ -103,16 +105,35 @@
             <li>Arduino</li>
             <li>Hand Tools</li>
         </ul>
-        <h4 class="projectName">Productively Unproductive</h4>
+        <h4 class="projectName">+Unproductivity Web App</h4>
         <p class="projectDescription">Super cool description of project</p>
        </div>
   </div>
     <!-- Productively Unproductive, End  -->
-    <!-- Hackathon Projects, Beginning  -->  
+        </div>
+    <!-- 2x2 Section End -->
+        <div class="row small-up-1 medium-up-2 large-up-3" style="padding-top:0px;">
+            <!-- 3x1 Section Beginning -->
+    <!-- Cake Decorator, Beginning  -->  
+  <div class="column column-block">
+      <div id="testDiv">
+    <img src="img/cake_372x279.png" class="thumbnail" alt="">
+    <ul id="toolsList">
+            <li>C</li>
+            <li><img class="toolsUsed" src="img/python.ico"></li>
+            <li>Arduino</li>
+            <li>MechE</li>
+        </ul>
+        <h4 class="projectName">Automatic Cake Decorator</h4>
+        <p class="projectDescription">Super cool description of project</p>
+      </div>
+  </div>
+    <!-- Cake Decorator, End  -->  
+    <!-- Custom Quad, Beginning  -->  
    <div class="column column-block">
        <div id="testDiv">
-    <img src="img/mlh_1860x900.png" class="thumbnail" alt="">
-        <ul id="toolsList">
+    <img src="img/mlh_372x279.png" class="thumbnail" alt="">
+       <ul id="toolsList">
             <li>JS</li>
             <li>AJAX</li>
             <li>JQuery</li>
@@ -123,64 +144,17 @@
         <p class="projectDescription">Super cool description of project</p>
        </div>
   </div>
-    <!-- Hackathon Projects, End  --> 
-   <!-- 3DP, Beginning  -->           
-  <div class="column column-block">
-      <div id="testDiv">
-    <img src="img/cura_1860x900.png" class="thumbnail" alt="">
-      <ul id="toolsList">
-            <li>FDM</li>
-            <li>SLA</li>
-            <li>3DP</li>
-            <li>Curas</li>
-        </ul>
-        <h4 class="projectName">3DP / Props</h4>
-        <p class="projectDescription">Super cool description of project</p>
-      </div>
-  </div>
-    <!-- 3DP, End  -->    
-        </div>
-    <!-- 2x2 Section End -->
-        <div class="row small-up-1 medium-up-2 large-up-3" style="padding-top:0px;">
-            <!-- 3x1 Section Beginning -->
-    <!-- Cake Decorator, Beginning  -->  
-  <div class="column column-block">
-      <div id="testDiv">
-    <img src="img/cake_thumb.png" class="thumbnail" alt="">
-    <ul id="toolsList">
-            <li>C</li>
-            <li><img class="toolsUsed" src="img/python.ico"></li>
-            <li>Arduino</li>
-            <li>MechE</li>
-        </ul>
-        <h4 class="projectName">Cake Decorator</h4>
-        <p class="projectDescription">Super cool description of project</p>
-      </div>
-  </div>
-    <!-- Cake Decorator, End  -->  
-    <!-- Custom Quad, Beginning  -->  
-   <div class="column column-block">
-       <div id="testDiv">
-    <img src="img/placeholderThumb.png" class="thumbnail" alt="">
-       <ul id="toolsList">
-            <li>C</li>
-            <li>Arduino</li>
-            <li>Hand Tools</li>
-        </ul>
-        <h4 class="projectName">Custom Quadcopter Build</h4>
-        <p class="projectDescription">Super cool description of project</p>
-       </div>
-  </div>
     <!-- Custom Quad, End  -->  
     <!-- Model Rocket, Beginning  -->  
    <div class="column column-block">
        <div id="testDiv">
-    <img src="img/placeholderThumb.png" class="thumbnail" alt="">
+    <img src="img/Cura_372x279.png" class="thumbnail" alt="">
        <ul id="toolsList">
-            <li>Open Rocket</li>
-            <li>Handtools</li>
+            <li>FDM</li>
+            <li>SLA</li>
+            <li>Cura</li>
         </ul>
-        <h4 class="projectName">Model Rocket</h4>
+        <h4 class="projectName">3D Printing / Props</h4>
         <p class="projectDescription">Super cool description of project</p>
        </div>
   </div>

@@ -83,8 +83,8 @@ body {
     z-index: 1;
 }
 
-#projects div {
-    
+#projects {
+    padding-top: 0;
 }
 
 #projectDiv {
@@ -167,4 +167,14 @@ p , h1, h4, h6, li {
 
 footer div i {
     margin: 10px;
+}
+
+.filterIcon {
+    font-size:36px;
+}
+
+.filterWrapper {
+    /*align-content: center;*/
+    text-align: center;
+    margin: 5px;
 }

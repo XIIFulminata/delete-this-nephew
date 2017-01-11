@@ -57,13 +57,13 @@
                     </li>
                     
                     <li>
-                        <a class="navButton" href="index.html"><h6>Projects</h6></a>
+                        <a class="navButton" href="index.html" style="background-color: #eee; text-decoration: none"><h6>Projects</h6></a>
                     </li>
                     <li>
                         <a class="navButton" href="#experience"><h6>Experience</h6></a>
                     </li>
                      <li>
-                        <a class="navButton" href="ref/resume.pdf"><h6>Resume</h6></a>
+                        <a class="navButton" href="ref/resume.pdf"><h6>Portfolio</h6></a>
                     </li>
                     <li>
                         <a class="navButton" href="about.html"><h6>About Me</h6></a>
@@ -76,37 +76,38 @@
     </nav>
 
 <!-- Project Section -->
-    <div class="row large-10 large-offset-1 columns">
+    <div class="row large-10 large-centered columns">
         <!-- 2x2 Section Start -->
         <div class="row small-up-1 medium-up-2" id="projects">
      <!-- Wizard's Chess, Beginning  -->       
   <div class="column column-block">
-      <div id="testDiv">
+      <div id="projectDiv">
     <img src="img/wizChess_1860x900.png" class="thumbnail wideThumbnail" alt="" id="une">
     <img src="img/wizChess_thumb.jpg" class="thumbnail squareThumbnail" alt="" id="deux">
-    
+    <!--<img src="img/IP_1860x900.png" class="thumbnail wideThumbnail" alt="" >-->
         <ul id="toolsList">
             <li>C</li>
-            <li style="padding-bottom: 0;"><img class="toolsUsed" src="img/python.ico">Python</li>
             <li>Arduino</li>
             <li>Hand Tools</li>
         </ul>
         <h4 class="projectName">Automated Wizard's Chess</h4>
-        <p class="projectDescription">Frosts cakes with 3-axis motion</p>
+        <p class="projectDescription">Moves magnetic chess pieces with arduino commands.</p>
           </div>
   </div>
     <!-- Wizard's Chess, End  -->    
     <!-- Productively Unproductive, Beginning  -->    
    <div class="column column-block">
-       <div id="testDiv">
-    <img src="img/prodUnpr_projectView.PNG" class="thumbnail" alt="">
+       <div id="projectDiv">
+    <img src="img/prodUnpr_projectView.PNG" class="thumbnail wideThumbnail" alt="">
+    <img src="img/prodUnpr_372x279.png" class="thumbnail squareThumbnail" alt="" id="deux">
         <ul id="toolsList">
-            <li>C</li>
-            <li>Arduino</li>
-            <li>Hand Tools</li>
+            <li>JS</li>
+            <li>Node.JS</li>
+            <li>JQuery</li>
+            <li>Movie API</li>
         </ul>
-        <h4 class="projectName">+Unproductivity Web App</h4>
-        <p class="projectDescription">Super cool description of project</p>
+        <h4 class="projectName">+Unproductivity</h4>
+        <p class="projectDescription">A Web App to track your week's watching schedule and more.</p>
        </div>
   </div>
     <!-- Productively Unproductive, End  -->
@@ -116,46 +117,46 @@
             <!-- 3x1 Section Beginning -->
     <!-- Cake Decorator, Beginning  -->  
   <div class="column column-block">
-      <div id="testDiv">
+      <div id="projectDiv">
     <img src="img/cake_372x279.png" class="thumbnail" alt="">
     <ul id="toolsList">
             <li>C</li>
-            <li><img class="toolsUsed" src="img/python.ico"></li>
+            <li>Python</li>
             <li>Arduino</li>
-            <li>MechE</li>
+            <li>Hand Tools</li>
         </ul>
-        <h4 class="projectName">Automatic Cake Decorator</h4>
-        <p class="projectDescription">Super cool description of project</p>
+        <h4 class="projectName">Auto Cake Decorator</h4>
+        <p class="projectDescription">3-axis frosting extruding monstrosity.</p>
       </div>
   </div>
     <!-- Cake Decorator, End  -->  
     <!-- Custom Quad, Beginning  -->  
    <div class="column column-block">
-       <div id="testDiv">
+       <div id="projectDiv">
     <img src="img/mlh_372x279.png" class="thumbnail" alt="">
        <ul id="toolsList">
-            <li>JS</li>
             <li>AJAX</li>
             <li>JQuery</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>Node.JS</li>
+            <li>Git</li>
         </ul>
         <h4 class="projectName">Hackathon Projects</h4>
-        <p class="projectDescription">Super cool description of project</p>
+        <p class="projectDescription">Group projects from past hackathons.</p>
        </div>
   </div>
     <!-- Custom Quad, End  -->  
     <!-- Model Rocket, Beginning  -->  
    <div class="column column-block">
-       <div id="testDiv">
+       <div id="projectDiv">
     <img src="img/Cura_372x279.png" class="thumbnail" alt="">
        <ul id="toolsList">
             <li>FDM</li>
             <li>SLA</li>
             <li>Cura</li>
+            <li>SolidWorks</li>
         </ul>
-        <h4 class="projectName">3D Printing / Props</h4>
-        <p class="projectDescription">Super cool description of project</p>
+        <h4 class="projectName">3D Printing / Replicas</h4>
+        <p class="projectDescription">Items modeled, printed, and assembled.</p>
        </div>
   </div>
     <!-- Model Rocket, End  -->  
@@ -169,7 +170,11 @@
     
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <a href="https://www.linkedin.com/in/jovaun-jackson"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+            <a href="https://github.com/XIIFulminata"><i class="fa fa-github" style="font-size:36px"></i></a>
+            <a href="Resume%20-%20Jovaun%20Jackson.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:36px"></i></a>
+            <!--<img src="img/devpost-128.png" style="height:24px;width:auto;float:left;">-->
+            <p>Copyright &copy; Jovaun Jackson 2016-2017</p>
         </div>
     </footer>
         
@@ -189,6 +194,6 @@
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
 
-</body>
+</body> 
 
 </html>

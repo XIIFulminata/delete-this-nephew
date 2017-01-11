@@ -87,7 +87,7 @@ body {
     
 }
 
-#testDiv {
+#projectDiv {
     border: 0;
     padding: 0;
     box-shadow: 1px 1px 1px 1px #888888;
@@ -95,7 +95,7 @@ body {
     
 }
 
-#testDiv:hover{
+#projectDiv:hover{
     box-shadow: 5px 5px 5px 5px #888888;
     color: grey;
     opacity: .5;
@@ -163,4 +163,8 @@ p , h1, h4, h6, li {
 
 .navButton h6 {
     margin-bottom: 0;
+}
+
+footer div i {
+    margin: 10px;
 }

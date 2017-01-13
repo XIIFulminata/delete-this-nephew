@@ -17,7 +17,7 @@ ul {
 
 li {
     float: left;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 10px 5px 10px;
 }
 
 .project {
@@ -68,6 +68,7 @@ li {
     padding: 0px;
     margin-bottom: 0;
     padding-left: 2px;
+    font-size: 140%; 
 }
 
 body {
@@ -177,4 +178,14 @@ footer div i {
     /*align-content: center;*/
     text-align: center;
     margin: 5px;
+}
+
+.indexBody {
+    background: url("../img/intro-bg.jpg")
+}
+
+.indexFooter {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
 }

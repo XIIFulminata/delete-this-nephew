@@ -91,7 +91,7 @@ body {
 #projectDiv {
     border: 0;
     padding: 0;
-    box-shadow: 1px 1px 1px 1px #888888;
+    box-shadow: 2px 2px 4px 4px #888888;
     color: black; /* makes the tools used colors change*/
     
 }
@@ -99,10 +99,9 @@ body {
 #projectDiv:hover{
     box-shadow: 5px 5px 5px 5px #888888;
     color: grey;
-    opacity: .5;
-    
-    
+    opacity: .5;    
 }
+
 .row {
     padding-top: 50px;
 }
@@ -172,6 +171,7 @@ footer div i {
 
 .filterIcon {
     font-size:36px;
+    margin-top: 5px;
 }
 
 .filterWrapper {
@@ -266,8 +266,8 @@ footer div i {
 }
 
 .exp-card {
-    box-shadow: 2px 2px 4px 4px #888888;
-    margin-bottom: 12px;
+    box-shadow: 2px 2px 1px 1px #888888;
+    margin-bottom: 20px;
     min-height: 248px;
 }
 
@@ -293,5 +293,35 @@ footer div i {
 .exp-heading {
     color: dodgerblue;
     font-weight:bold;
-    margin-top: 45px;
+    /*margin-top: 45px;*/
+}
+
+
+#overview-filter:hover  {
+    background-color:lightgrey;
+}
+
+#dev-filter:hover, #pdf-filter:hover , #expand-filter:hover, #collapse-filter:hover {
+    background-color:lightblue;
+}
+
+#mech-filter:hover {
+    background-color:#D49E9E;
+}
+
+#research-filter:hover {
+    background-color: lightgreen;
+}
+
+.exp-card:hover {
+    box-shadow: 2px 2px 5px 5px lightblue;
+    opacity: .95;    
+}
+
+.exp-ico i{
+    color: dodgerblue;
+}
+
+#resTarg:hover {
+    text-decoration: none;
 }

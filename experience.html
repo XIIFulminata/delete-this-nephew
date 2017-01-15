@@ -57,13 +57,10 @@
                     </li>
                     
                     <li>
-                        <a class="navButton" href="index.html"><h6>Projects</h6></a>
+                        <a class="navButton" href="projects.html"><h6>Projects</h6></a>
                     </li>
                     <li>
                         <a class="navButton" href="experience.html" style="background-color: #eee; text-decoration: none"><h6>Experience</h6></a>
-                    </li>
-                     <li>
-                        <a class="navButton" href="ref/resume.pdf" target="_blank"><h6>Resume</h6></a>
                     </li>
                     <li>
                         <a class="navButton" href="about.html"><h6>About Me</h6></a>
@@ -75,171 +72,540 @@
         <!-- /.container -->
     </nav>
 
-<!-- Project Section -->
-    <div class="row large-10 large-centered columns">
-        <!-- filter Section Start -->
-        <div class="row small-up-2 medium-up-4">
+        
+        <div class="row large-10 large-centered columns exp-first-row" style="">
+            <div class="row small-up-1 medium-up-3 exp-ico">
             
-            <div class="column column-block" style="background-color:lightgrey;">
-                <div class="filterWrapper">
-                    <i class="fa fa-pie-chart filterIcon" aria-hidden="true"></i>
-                    <h4>Overview</h4>
+            
+            <div class="column column-block" style="">
+                <a href="Resume%20-%20Jovaun%20Jackson.pdf" target="_blank" id="resTarg">
+                    <div class="filterWrapper" id="pdf-filter">
+                        <i class="fa fa-file-pdf-o filterIcon" aria-hidden="true"></i>
+                        <h4 class="exp-heading" style="">PDF Resume</h4>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="column column-block" style="">
+                <div class="filterWrapper" id="expand-filter">
+                    <i class="fa fa-expand filterIcon" aria-hidden="true"></i>
+                    <h4 class="exp-heading" style="">Expand All</h4>
                 </div>
             </div>
-            <div class="column column-block" style="background-color:lightblue;">
-                <div class="filterWrapper">
-                    <i class="fa fa-terminal filterIcon" aria-hidden="true"></i>
-                    <h4>Web Dev</h4>
-                </div>
-            </div>
-            <div class="column column-block" style="background-color:#D49E9E;">
-                <div class="filterWrapper">
-                    <i class="fa fa-cog filterIcon" aria-hidden="true"></i>
-                    <h4>Mech E</h4>
-                </div>
-            </div>
-            <div class="column column-block" style="background-color:lightgreen;">
-                <div class="filterWrapper">
-                    <i class="fa fa-graduation-cap filterIcon" aria-hidden="true"></i>
-                    <h4>Research</h4>
+            <div class="column column-block" style="">
+                <div class="filterWrapper" id="collapse-filter">
+                    <i class="fa fa-compress filterIcon" aria-hidden="true"></i>
+                    <h4 class="exp-heading" style="">Collapse All</h4>
                 </div>
             </div>
         </div>
-        
-        
-        <!-- filter Section end -->
-        <!-- 2x2 Section Start 
-        <div class="row small-up-1 medium-up-2" id="projects">
-
-        </div>
-  2x2 Section End -->
-        <div class="row small-up-1 medium-up-2 large-up-3" style="padding-top:0px;">
-            <!-- 3x1 Section Beginning -->
-         <!-- Wizard's Chess, Beginning  -->       
-  <div class="column column-block">
-      <div id="projectDiv">
-    
-    <img src="img/wizChess_thumb.jpg" class="thumbnail" alt="" id="deux">
-    <!--<img src="img/IP_1860x900.png" class="thumbnail wideThumbnail" alt="" >-->
-        <ul id="toolsList">
-            <li>C</li>
-            <li>Arduino</li>
-            <li>Hand Tools</li>
-        </ul>
-        <h4 class="projectName">Automated Wizard's Chess</h4>
-        <p class="projectDescription">Moves magnetic chess pieces with arduino commands.</p>
-          </div>
-  </div>
-    <!-- Wizard's Chess, End  -->    
-    <!-- Productively Unproductive, Beginning  -->    
-   <div class="column column-block">
-       <div id="projectDiv">
-    
-    <img src="img/prodUnpr_372x279.png" class="thumbnail" alt="" id="deux">
-        <ul id="toolsList">
-            <li>JS</li>
-            <li>Node.JS</li>
-            <li>JQuery</li>
-            <li>Movie API</li>
-        </ul>
-        <h4 class="projectName">+Unproductivity</h4>
-        <p class="projectDescription">A Web App to track your week's watching schedule and more.</p>
-       </div>
-  </div>
-    <!-- Productively Unproductive, End  -->
-    <!-- Cake Decorator, Beginning  -->  
-  <div class="column column-block">
-      <div id="projectDiv">
-    <img src="img/cake_372x279.png" class="thumbnail" alt="">
-    <ul id="toolsList">
-            <li>C</li>
-            <li>Python</li>
-            <li>Arduino</li>
-            <li>Hand Tools</li>
-        </ul>
-        <h4 class="projectName">Auto Cake Decorator</h4>
-        <p class="projectDescription">3-axis frosting extruding monstrosity.</p>
-      </div>
-  </div>
-    <!-- Cake Decorator, End  -->  
-    <!-- Custom Quad, Beginning  -->  
-   <div class="column column-block">
-       <div id="projectDiv">
-    <img src="img/mlh_372x279.png" class="thumbnail" alt="">
-       <ul id="toolsList">
-            <li>AJAX</li>
-            <li>JQuery</li>
-            <li>Node.JS</li>
-            <li>Git</li>
-        </ul>
-        <h4 class="projectName">Hackathon Projects</h4>
-        <p class="projectDescription">Group projects from past hackathons.</p>
-       </div>
-  </div>
-    <!-- Custom Quad, End  -->  
-    <!-- Model Rocket, Beginning  -->  
-   <div class="column column-block">
-       <div id="projectDiv">
-    <img src="img/Cura_372x279.png" class="thumbnail" alt="">
-       <ul id="toolsList">
-            <li>FDM</li>
-            <li>SLA</li>
-            <li>Cura</li>
-            <li>SolidWorks</li>
-        </ul>
-        <h4 class="projectName">3D Printing / Replicas</h4>
-        <p class="projectDescription">Items modeled, printed, and assembled.</p>
-       </div>
-  </div>
-    <!-- Model Rocket, End  -->  
- 
-    <!-- Instron, Beginning  -->  
-   <div class="column column-block">
-       <div id="projectDiv">
-    <img src="img/instron_2232x1674.png" class="thumbnail" alt="">
-       <ul id="toolsList">
-            <li>Solidworks</li>
-            <li>EPDM</li>
-            <li>SLA 3DP</li>
-        </ul>
-        <h4 class="projectName">Intern: Instron (ITW)</h4>
-        <p class="projectDescription">Group projects from past hackathons.</p>
-       </div>
-  </div>
-    <!-- Instron, End  -->  
-    <!-- GE, Beginning  -->  
-   <div class="column column-block">
-       <div id="projectDiv">
-    <img src="img/GE_744x558.png" class="thumbnail" alt="">
-       <ul id="toolsList">
-            <li>SolidEdge</li>
-            <li>AutoCAD</li>
-            <li>Excel</li>
-            <li>Access</li>
-        </ul>
-        <h4 class="projectName">Intern: GE Aviation</h4>
-        <p class="projectDescription">Items modeled, printed, and assembled.</p>
-       </div>
-  </div>
-    <!-- GE Rocket, End  -->  
-    <!-- Protein, Beginning  -->  
-  <div class="column column-block">
-      <div id="projectDiv">
-    <img src="img/nsf_744x558.png" class="thumbnail" alt="">
-    <ul id="toolsList">
-            <li>Perl</li>
-            <li>Bash</li>
-            <li>GROMACS</li>
-            <li>VMD</li>
-        </ul>
-        <h4 class="projectName">REU: Whitford Group NEU</h4>
-        <p class="projectDescription">3-axis frosting extruding monstrosity.</p>
-      </div>
-  </div>
-    <!-- Protein, End  --> 
+            
+            <!-- EDUCATION SECTION BEGIN -->
+            <h4 class="exp-heading">EDUCATION</h4>
+            <!-- NEU Study Card - End -->
+            
+            <div class="row exp-card rm-style-row small-up-1 medium-up-2" style="background-color:white;">
+                <div class="column exp-logo pad-col" style="width:25%;">
+                    <img src="img/NEU-logo.png" class="exp-img" style="margin-top:10%;">
+                </div>
+                <div class="column exp-body pad-col" style="width:75%;">
+                    <div class="row exp-name-row rm-style-row">
+                        <div class="column exp-name pad-col ">
+                            <h6><b>Northeastern University</b></h6>
+                        </div>
+                        <div class="column exp-date pad-col ">
+                            <h6>Sep 2013 - May 2018</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-title-row rm-style-row ">
+                        <div class="column exp-title pad-col">
+                            <h6><i>Candidate for a B.S. Mechanical Engineering, Minor in Computer Science</i></h6>
+                        </div>
+                        <div class="column exp-loc pad-col">
+                            <h6>Boston, MA</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-info rm-style-row">
+                        <p>
+                        As the process owner for the site’s chemical management, I worked closely with an interdisciplinary internal team as well as several vendors to ensure continued availability. 
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Coordinated with 15 suppliers while ensuring compliance and timeliness</p>
+                            </li>
+                            <li>
+                                <p>Developed and implemented a new chemical management process for the entire site</p>
+                            </li>
+                            <li>
+                                <p>Reduced critical chemical shortages by more than 80%</p>
+                            </li>
+                            <li>
+                                <p>Drafted detailed wire harnesses in AutoCAD to be made by outside vendors</p>
+                            </li>
+                            <li>
+                                <p>Designed test methods and a fixture to stake PCB’s with high repeatability</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row see-more rm-style-row">
+                        <a href="#"><p> - Relevant Coursework - </p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- NEU Study Exp Card - End -->
+            <!-- EDUCATION SECTION END -->
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- WORK  SECTION BEGIN -->
+            <h4 class="exp-heading">WORK EXPERIENCE</h4>
+            <!-- regame Exp Card - Start -->
+            
+            <div class="row exp-card rm-style-row small-up-1 medium-up-2" style="background-color:white;">
+                <div class="column exp-logo pad-col" style="width:25%;">
+                    <img src="img/regame.png" class="exp-img" style="margin-top:10%;">
+                </div>
+                <div class="column exp-body pad-col" style="width:75%;">
+                    <div class="row exp-name-row rm-style-row">
+                        <div class="column exp-name pad-col ">
+                            <h6><b>ReGameVR Lab</b></h6>
+                        </div>
+                        <div class="column exp-date pad-col ">
+                            <h6>Jan 2017 - Present</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-title-row rm-style-row ">
+                        <div class="column exp-title pad-col">
+                            <h6><i>Undergraduate Researcher</i></h6>
+                        </div>
+                        <div class="column exp-loc pad-col">
+                            <h6>Boston, MA</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-info rm-style-row">
+                        <p>
+                        As the process owner for the site’s chemical management, I worked closely with an interdisciplinary internal team as well as several vendors to ensure continued availability. 
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Coordinated with 15 suppliers while ensuring compliance and timeliness</p>
+                            </li>
+                            <li>
+                                <p>Developed and implemented a new chemical management process for the entire site</p>
+                            </li>
+                            <li>
+                                <p>Reduced critical chemical shortages by more than 80%</p>
+                            </li>
+                            <li>
+                                <p>Drafted detailed wire harnesses in AutoCAD to be made by outside vendors</p>
+                            </li>
+                            <li>
+                                <p>Designed test methods and a fixture to stake PCB’s with high repeatability</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row see-more rm-style-row">
+                        <a href="#"><p> - Learn More - </p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- regame Exp Card - End -->
+            <!-- Instron Exp Card - Start -->
+            
+            <div class="row exp-card rm-style-row small-up-1 medium-up-2" style="background-color:white;">
+                <div class="column exp-logo pad-col" style="width:25%;">
+                    <img src="img/Instron.png" class="exp-img" style="margin-top:10%;">
+                </div>
+                <div class="column exp-body pad-col" style="width:75%;">
+                    <div class="row exp-name-row rm-style-row">
+                        <div class="column exp-name pad-col ">
+                            <h6><b>Instron</b></h6>
+                        </div>
+                        <div class="column exp-date pad-col ">
+                            <h6>Jul 2016 - Dec 2016</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-title-row rm-style-row ">
+                        <div class="column exp-title pad-col">
+                            <h6><i>Mechanical Design Co-op</i></h6>
+                        </div>
+                        <div class="column exp-loc pad-col">
+                            <h6>Norwood, MA</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-info rm-style-row">
+                        <p>
+                        I designed, analyzed, and assembled unique solutions to meet customer requirements in a fast-paced environment. Projects ranged from simple adapters to complex fixtures. 
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Acted as project manager for 38 delivered custom products, while assisting in others</p>
+                            </li>
+                            <li>
+                                <p>Quoted, designed, sourced material and selected finishes for components and projects</p>
+                            </li>
+                            <li>
+                                <p>Utilized 3d printer to prototype and validate proof of concept designs</p>
+                            </li>
+                            <li>
+                                <p>Created detailed models of systems and components using SolidWorks and EPDM</p>
+                            </li>
+                            <li>
+                                <p>Created assembly drawings and installation instructions for manufacturing and customers</p>
+                            </li>
+                            <li>
+                                <p>Performed risk analysis of components using SolidWorks FEA tool and physical testing</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row see-more rm-style-row">
+                        <a href="#"><p> - See My Projects - </p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Instron Exp Card - End -->
+            <!-- GE Aviation Exp Card - Start -->
+            
+            <div class="row exp-card rm-style-row small-up-1 medium-up-2" style="background-color:white;">
+                <div class="column exp-logo pad-col" style="width:25%;">
+                    <img src="img/GE.png" class="exp-img" style="margin-top:10%;">
+                </div>
+                <div class="column exp-body pad-col" style="width:75%;">
+                    <div class="row exp-name-row rm-style-row">
+                        <div class="column exp-name pad-col ">
+                            <h6><b>GE Aviation</b></h6>
+                        </div>
+                        <div class="column exp-date pad-col ">
+                            <h6>Jul 2015 - Dec 2015</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-title-row rm-style-row ">
+                        <div class="column exp-title pad-col">
+                            <h6><i>Infra-Engineering Co-op</i></h6>
+                        </div>
+                        <div class="column exp-loc pad-col">
+                            <h6>Boston, MA</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-info rm-style-row">
+                        <p>
+                        As the process owner for the site’s chemical management, I worked closely with an interdisciplinary internal team as well as several vendors to ensure continued availability. 
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Coordinated with 15 suppliers while ensuring compliance and timeliness</p>
+                            </li>
+                            <li>
+                                <p>Developed and implemented a new chemical management process for the entire site</p>
+                            </li>
+                            <li>
+                                <p>Reduced critical chemical shortages by more than 80%</p>
+                            </li>
+                            <li>
+                                <p>Drafted detailed wire harnesses in AutoCAD to be made by outside vendors</p>
+                            </li>
+                            <li>
+                                <p>Designed test methods and a fixture to stake PCB’s with high repeatability</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row see-more rm-style-row">
+                        <a href="#"><p> - See My Projects - </p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- GE Aviation Exp Card - End -->
+            <!-- Biophysics Exp Card - Start -->
+            
+            <div class="row exp-card rm-style-row small-up-1 medium-up-2 trailing-row" style="background-color:white;">
+                <div class="column exp-logo pad-col" style="width:25%;">
+                    <img src="img/nsf-logo-690px.png" class="exp-img" style="margin-top:10%;">
+                </div>
+                <div class="column exp-body pad-col" style="width:75%;">
+                    <div class="row exp-name-row rm-style-row">
+                        <div class="column exp-name pad-col ">
+                            <h6><b>Whitford Research Group</b></h6>
+                        </div>
+                        <div class="column exp-date pad-col ">
+                            <h6>Jun 2014 - Aug 2014</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-title-row rm-style-row ">
+                        <div class="column exp-title pad-col">
+                            <h6><i>Undergraduate Researcher</i></h6>
+                        </div>
+                        <div class="column exp-loc pad-col">
+                            <h6>Bohemia, NY</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-info rm-style-row">
+                        <p>
+                        As the process owner for the site’s chemical management, I worked closely with an interdisciplinary internal team as well as several vendors to ensure continued availability. 
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Coordinated with 15 suppliers while ensuring compliance and timeliness</p>
+                            </li>
+                            <li>
+                                <p>Developed and implemented a new chemical management process for the entire site</p>
+                            </li>
+                            <li>
+                                <p>Reduced critical chemical shortages by more than 80%</p>
+                            </li>
+                            <li>
+                                <p>Drafted detailed wire harnesses in AutoCAD to be made by outside vendors</p>
+                            </li>
+                            <li>
+                                <p>Designed test methods and a fixture to stake PCB’s with high repeatability</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row see-more rm-style-row">
+                        <a href="#"><p> - Learn More - </p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Biophysics Exp Card - End -->
+            
+            <!-- WORK  SECTION END -->
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- VOLUNTEERING  SECTION BEGIN -->
+            <h4 class="exp-heading">VOLUNTEERING</h4>
+            <!-- RAW Tours Exp Card - End -->
+            
+            <div class="row exp-card rm-style-row small-up-1 medium-up-2" style="background-color:white;">
+                <div class="column exp-logo pad-col" style="width:25%;">
+                    <img src="img/rawTours.png" class="exp-img" style="margin-top:10%;">
+                </div>
+                <div class="column exp-body pad-col" style="width:75%;">
+                    <div class="row exp-name-row rm-style-row">
+                        <div class="column exp-name pad-col ">
+                            <h6><b>RAW Tours</b></h6>
+                        </div>
+                        <div class="column exp-date pad-col ">
+                            <h6>Mar 2016</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-title-row rm-style-row ">
+                        <div class="column exp-title pad-col">
+                            <h6><i>Volunteer</i></h6>
+                        </div>
+                        <div class="column exp-loc pad-col">
+                            <h6>San Marcos, Costa Rica</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-info rm-style-row">
+                        <p>
+                        As the process owner for the site’s chemical management, I worked closely with an interdisciplinary internal team as well as several vendors to ensure continued availability. 
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Coordinated with 15 suppliers while ensuring compliance and timeliness</p>
+                            </li>
+                            <li>
+                                <p>Developed and implemented a new chemical management process for the entire site</p>
+                            </li>
+                            <li>
+                                <p>Reduced critical chemical shortages by more than 80%</p>
+                            </li>
+                            <li>
+                                <p>Drafted detailed wire harnesses in AutoCAD to be made by outside vendors</p>
+                            </li>
+                            <li>
+                                <p>Designed test methods and a fixture to stake PCB’s with high repeatability</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row see-more rm-style-row">
+                        <a href="#"><p> - Learn More - </p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- RAW Tours Exp Card - End -->
+            <!-- TORCH Exp Card - End -->
+            
+            <div class="row exp-card rm-style-row small-up-1 medium-up-2" style="background-color:white;">
+                <div class="column exp-logo pad-col" style="width:25%;">
+                    <img src="img/Trove_Logo.png" class="exp-img" style="margin-top:10%;">
+                </div>
+                <div class="column exp-body pad-col" style="width:75%;">
+                    <div class="row exp-name-row rm-style-row">
+                        <div class="column exp-name pad-col ">
+                            <h6><b>White Plains Public Library</b></h6>
+                        </div>
+                        <div class="column exp-date pad-col ">
+                            <h6>May 2015 - May 2016</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-title-row rm-style-row ">
+                        <div class="column exp-title pad-col">
+                            <h6><i>Better World Books Volunteer</i></h6>
+                        </div>
+                        <div class="column exp-loc pad-col">
+                            <h6>White Plains, NY</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-info rm-style-row">
+                        <p>
+                        As the process owner for the site’s chemical management, I worked closely with an interdisciplinary internal team as well as several vendors to ensure continued availability. 
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Coordinated with 15 suppliers while ensuring compliance and timeliness</p>
+                            </li>
+                            <li>
+                                <p>Developed and implemented a new chemical management process for the entire site</p>
+                            </li>
+                            <li>
+                                <p>Reduced critical chemical shortages by more than 80%</p>
+                            </li>
+                            <li>
+                                <p>Drafted detailed wire harnesses in AutoCAD to be made by outside vendors</p>
+                            </li>
+                            <li>
+                                <p>Designed test methods and a fixture to stake PCB’s with high repeatability</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row see-more rm-style-row">
+                        <a href="#"><p> - Learn More - </p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- TORCH Exp Card - End -->
+            <!-- TORCH Exp Card - End -->
+            
+            <div class="row exp-card rm-style-row small-up-1 medium-up-2" style="background-color:white;">
+                <div class="column exp-logo pad-col" style="width:25%;">
+                    <img src="img/NSBELogo_Color.png" class="exp-img" style="margin-top:10%;">
+                </div>
+                <div class="column exp-body pad-col" style="width:75%;">
+                    <div class="row exp-name-row rm-style-row">
+                        <div class="column exp-name pad-col ">
+                            <h6><b>National Society of Black Engineers: NU Chapter</b></h6>
+                        </div>
+                        <div class="column exp-date pad-col ">
+                            <h6>May 2014 - May 2015</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-title-row rm-style-row ">
+                        <div class="column exp-title pad-col">
+                            <h6><i>Technical Outreach Chair</i></h6>
+                        </div>
+                        <div class="column exp-loc pad-col">
+                            <h6>Boston, MA</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-info rm-style-row">
+                        <p>
+                        As the process owner for the site’s chemical management, I worked closely with an interdisciplinary internal team as well as several vendors to ensure continued availability. 
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Coordinated with 15 suppliers while ensuring compliance and timeliness</p>
+                            </li>
+                            <li>
+                                <p>Developed and implemented a new chemical management process for the entire site</p>
+                            </li>
+                            <li>
+                                <p>Reduced critical chemical shortages by more than 80%</p>
+                            </li>
+                            <li>
+                                <p>Drafted detailed wire harnesses in AutoCAD to be made by outside vendors</p>
+                            </li>
+                            <li>
+                                <p>Designed test methods and a fixture to stake PCB’s with high repeatability</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row see-more rm-style-row">
+                        <a href="#"><p> - Learn More - </p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- TORCH Exp Card - End -->
+            <!-- LGR Exp Card - End -->
+            
+            <div class="row exp-card rm-style-row small-up-1 medium-up-2" style="background-color:white;">
+                <div class="column exp-logo pad-col" style="width:25%;">
+                    <img src="img/lgr.PNG" class="exp-img" style="margin-top:10%;">
+                </div>
+                <div class="column exp-body pad-col" style="width:75%;">
+                    <div class="row exp-name-row rm-style-row">
+                        <div class="column exp-name pad-col ">
+                            <h6><b>Let's Get Ready</b></h6>
+                        </div>
+                        <div class="column exp-date pad-col ">
+                            <h6>Sep 2013 - April 2014</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-title-row rm-style-row ">
+                        <div class="column exp-title pad-col">
+                            <h6><i>Math Coach</i></h6>
+                        </div>
+                        <div class="column exp-loc pad-col">
+                            <h6>Boston, MA</h6>
+                        </div>
+                    </div>
+                    <div class="row exp-info rm-style-row">
+                        <p>
+                        As the process owner for the site’s chemical management, I worked closely with an interdisciplinary internal team as well as several vendors to ensure continued availability. 
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Coordinated with 15 suppliers while ensuring compliance and timeliness</p>
+                            </li>
+                            <li>
+                                <p>Developed and implemented a new chemical management process for the entire site</p>
+                            </li>
+                            <li>
+                                <p>Reduced critical chemical shortages by more than 80%</p>
+                            </li>
+                            <li>
+                                <p>Drafted detailed wire harnesses in AutoCAD to be made by outside vendors</p>
+                            </li>
+                            <li>
+                                <p>Designed test methods and a fixture to stake PCB’s with high repeatability</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row see-more rm-style-row">
+                        <a href="#"><p> - Learn More - </p></a>
+                    </div>
+                </div>
+            </div>
+            <!-- LGR Exp Card - End -->
+            <!-- VOLUNTEERING  SECTION END -->
+   
 </div>          
 <!-- 3x1 Section End -->
-    </div>
+
     <!-- Project Section End -->
     
 

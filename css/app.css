@@ -91,7 +91,7 @@ body {
 #projectDiv {
     border: 0;
     padding: 0;
-    box-shadow: 1px 1px 1px 1px #888888;
+    box-shadow: 2px 2px 4px 4px #888888;
     color: black; /* makes the tools used colors change*/
     
 }
@@ -99,10 +99,9 @@ body {
 #projectDiv:hover{
     box-shadow: 5px 5px 5px 5px #888888;
     color: grey;
-    opacity: .5;
-    
-    
+    opacity: .5;    
 }
+
 .row {
     padding-top: 50px;
 }
@@ -172,6 +171,7 @@ footer div i {
 
 .filterIcon {
     font-size:36px;
+    margin-top: 5px;
 }
 
 .filterWrapper {
@@ -188,4 +188,140 @@ footer div i {
     bottom: 0px;
     position: fixed;
     width: 100%;
+}
+
+.bg-blue {
+    background-color: aqua;
+    margin: 1px;
+    border-bottom-color: greenyellow;
+    border: 5px;
+    /*
+    height: 20%;
+    */
+}
+
+.bg-red {
+    background-color: red;
+    border-bottom-color: greenyellow;
+    border: 5px;
+}
+
+.pad-col {
+    /*padding-left: 0px;
+    padding-right: 0px;*/
+}
+
+.projectDescription , .projectName {
+    padding-left: 10px;
+}
+
+.rm-style-row {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.exp-loc , .exp-date  {
+    width: 30%;
+    text-align: right;
+}
+
+.exp-name, .exp-title  {
+    width: 70%;
+}
+
+.exp-info p {
+    margin-bottom: 0;
+}
+
+.exp-info li {
+    list-style: circle;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.exp-info {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.exp-img {
+    height:200px;
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exp-card , .exp-info , .exp-name-row , .exp-title-row {
+    /*margin-right:0 !important;
+    margin-left: 0!important;*/
+}
+
+.exp-first-row {
+    /*padding-top:100px;
+    height:200px;*/
+    margin-bottom: 45px;
+}
+
+.exp-card {
+    box-shadow: 2px 2px 1px 1px #888888;
+    margin-bottom: 20px;
+    min-height: 248px;
+}
+
+.see-more {
+    color: deepskyblue;
+    text-align: center;
+}
+
+.see-more p {
+    margin-bottom: 5px;
+}
+
+.see-more a:hover {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.exp-name-row h6 {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.exp-heading {
+    color: dodgerblue;
+    font-weight:bold;
+    /*margin-top: 45px;*/
+}
+
+
+#overview-filter:hover  {
+    background-color:lightgrey;
+}
+
+#dev-filter:hover, #pdf-filter:hover , #expand-filter:hover, #collapse-filter:hover {
+    background-color:lightblue;
+}
+
+#mech-filter:hover {
+    background-color:#D49E9E;
+}
+
+#research-filter:hover {
+    background-color: lightgreen;
+}
+
+.exp-card:hover {
+    box-shadow: 2px 2px 5px 5px lightblue;
+    opacity: .95;    
+}
+
+.exp-ico i{
+    color: dodgerblue;
+}
+
+#resTarg:hover {
+    text-decoration: none;
 }

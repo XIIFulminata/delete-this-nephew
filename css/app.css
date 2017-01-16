@@ -180,7 +180,7 @@ footer div i {
     margin: 5px;
 }
 
-.indexBody {
+body {
     background: url("../img/intro-bg.jpg")
 }
 
@@ -223,12 +223,12 @@ footer div i {
 
 
 .exp-loc , .exp-date  {
-    width: 30%;
-    text-align: right;
+    /*width: 30%;
+    text-align: right;*/
 }
 
 .exp-name, .exp-title  {
-    width: 70%;
+    /*width: 70%;*/
 }
 
 .exp-info p {
@@ -291,7 +291,7 @@ footer div i {
 }
 
 .exp-heading {
-    color: dodgerblue;
+    color: #31b2d2;
     font-weight:bold;
     /*margin-top: 45px;*/
 }
@@ -319,9 +319,21 @@ footer div i {
 }
 
 .exp-ico i{
-    color: dodgerblue;
+    color: #31b2d2;
 }
 
 #resTarg:hover {
     text-decoration: none;
+}
+
+.filterWrapper h4 {
+    font-weight:bold;
+}
+
+.exp-title h6 {
+    margin-bottom: 0;
+}
+
+.hide {
+    display: hide;
 }

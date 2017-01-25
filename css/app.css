@@ -124,7 +124,8 @@ footer {
 #intro {
     margin-top: 0;
     padding: 100px 50px 250px 50px;
-    box-shadow: 1px 0px 1px 0px #888888;
+    /*box-shadow: 1px 0px 1px 0px #888888;*/
+    border:solid lightgrey 1px;
 }
 
 .projectName, .projectDescription {
@@ -336,4 +337,12 @@ body {
 
 .hide {
     display: hide;
+}
+
+.proj-img {
+    margin-top:5px;
+}
+
+.clamp-slider {
+    color: black;
 }

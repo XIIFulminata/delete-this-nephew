@@ -1,12 +1,13 @@
 
 $(document).ready(function(){
   $('.clamp-slider').slick({
-      dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  centerMode: true,
-  variableWidth: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
       arrows: true,
   });
+});
+
+$( ".instron-link" ).click(function() {
+  location.href="instron.html"
 });

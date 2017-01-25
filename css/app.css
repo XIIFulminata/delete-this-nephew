@@ -351,3 +351,18 @@ body {
 .clamp-slider {
     color: black;
 }
+
+#volunteeringDiv div p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#volunteeringDiv div:hover {
+    opacity: .5;
+}
+
+.center-bold {
+    text-align: center;
+    font-weight: bold;
+}
+

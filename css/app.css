@@ -299,6 +299,7 @@ body {
 .exp-heading {
     color: #31b2d2;
     font-weight:bold;
+    font-family: 'Muli', sans-serif;
     /*margin-top: 45px;*/
 }
 
@@ -366,3 +367,25 @@ body {
     font-weight: bold;
 }
 
+.project-heading {
+    /*color: #31b2d2;*/
+    font-family: 'Muli', sans-serif;
+}
+
+.exp-list li{
+    list-style-type: none;
+    list-style-position:inside;
+        margin:0;
+        padding:0;
+}
+
+.exp-section {
+        color: #31b2d2;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.trailing25 {
+    margin-bottom: 25px;
+}

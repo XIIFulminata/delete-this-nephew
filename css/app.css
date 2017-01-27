@@ -259,11 +259,6 @@ body {
     margin-right: auto;
 }
 
-.exp-card , .exp-info , .exp-name-row , .exp-title-row {
-    /*margin-right:0 !important;
-    margin-left: 0!important;*/
-}
-
 .exp-first-row {
     /*padding-top:100px;
     height:200px;*/
@@ -388,4 +383,39 @@ body {
 
 .trailing25 {
     margin-bottom: 25px;
+}
+
+.course-name {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.me-course-name {
+    background-color: #e28ead;
+
+    /*color: white*/
+}
+
+.eecs-course-name {
+    background-color: lightblue;
+}
+
+.sci-course-name {
+    background-color: lightgreen;
+}
+
+.math-course-name {
+    background-color: #c998ce;
+}
+
+.edu-info {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.edu-info p{
+    margin-bottom: 0;
+}
+.me-class, .eecs-class, .sci-class, .math-class {
+    margin-bottom: 7px;
 }

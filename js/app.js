@@ -11,3 +11,13 @@ $(document).ready(function(){
 $( ".instron-link" ).click(function() {
   location.href="instron.html"
 });
+
+
+
+$( ".GE-link" ).click(function() {
+  location.href="experience.html#ge-exp-card"
+});
+
+/*$( ".REU-link" ).click(function() {
+  location.href="experience.html#ge-exp-card"
+});*/

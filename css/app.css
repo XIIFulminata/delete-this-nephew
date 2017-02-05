@@ -18,6 +18,7 @@ ul {
 li {
     float: left;
     padding: 5px 10px 5px 10px;
+    padding-right: 5px;
 }
 
 .project {
@@ -119,6 +120,7 @@ footer {
 
 #aboutSection {
     margin-bottom: 1px;
+    
 }
 
 #intro {
@@ -186,7 +188,7 @@ footer div i {
 }
 
 body {
-    background: url("../img/intro-bg.jpg")
+    background: url("../img/intro-bg.jpg");
 }
 
 .indexFooter {
@@ -292,9 +294,10 @@ body {
 }
 
 .exp-heading {
-    color: #31b2d2;
+/*color: #31b2d2;*/
     font-weight:bold;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Bree Serif', serif;
+    /*font-family: 'Muli', sans-serif;*/
     /*margin-top: 45px;*/
 }
 
@@ -316,12 +319,12 @@ body {
 }
 
 .exp-card:hover {
-    box-shadow: 2px 2px 5px 5px lightblue;
+    box-shadow: 2px 2px 5px 5px lightgrey;
     opacity: .95;    
 }
 
 .exp-ico i{
-    color: #31b2d2;
+    /*color: #31b2d2;*/
 }
 
 #resTarg:hover {
@@ -418,4 +421,23 @@ body {
 }
 .me-class, .eecs-class, .sci-class, .math-class {
     margin-bottom: 7px;
+}
+
+#landing-name {
+   color: black;
+    font-size: 80px;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.filterWrapper h4 {
+    font-family: 'Bree Serif', serif;
+    font-weight: 300;
+}
+
+.individual-page {
+    border:solid lightgrey 2px;
 }

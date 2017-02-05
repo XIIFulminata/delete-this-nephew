@@ -1,0 +1,15 @@
+#aboutSection {
+    backface-visibility: hidden;
+}
+
+#intro div {
+    float: left;
+}
+
+.about-info {
+    padding-left: 25px;
+}
+
+p {
+    font-size: 20px;
+}

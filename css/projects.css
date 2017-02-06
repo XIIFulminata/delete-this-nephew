@@ -1,0 +1,21 @@
+.section-sep {
+    height: 0;
+    border:solid lightgrey 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-galleries{
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+.project-gal-wrapper img {
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-gal-wrapper {
+    align-content: center;
+}

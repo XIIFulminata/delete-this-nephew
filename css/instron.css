@@ -1,0 +1,25 @@
+.white-text{
+    color:white; 
+    font-family: 'Muli', sans-serif;
+}
+
+.fa-cogs{
+    color:white; 
+    font-size:75px;
+}
+
+@media only screen and (max-width: 640px) {
+    .fa-cogs{
+        font-size:75px;
+    }
+    .white-text{
+        font-size:40px;
+    }
+    .ico-div{
+        margin-right: 50px;
+    }
+}
+
+p, h2, h4, h5{
+    font-family: 'Roboto', sans-serif;
+}

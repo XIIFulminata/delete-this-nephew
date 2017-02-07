@@ -31,3 +31,11 @@ $( ".bess-link" ).click(function() {
     window.open('http://nuweb2.neu.edu/bess/');
 });
 */
+
+$( ".mlh-link" ).click(function() {
+  location.href="mlh.html"
+});
+
+$( ".3dp-link" ).click(function() {
+  location.href="3dp.html"
+});

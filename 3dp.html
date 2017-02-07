@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="css/projects.css" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/instron.css">
+    <link rel="stylesheet" href="css/3dp.css">
      <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>-->
     
@@ -82,36 +82,32 @@
 
 <!-- Intro Section -->
     <div class="row" id="aboutSection">
-        <div class="small-12 large-10 large-centered individual-page" id="intro" style="background-color:white;padding-top: 75px; padding-bottom:0;background-color:#31b2d2; height:200px">
-            <div class="large-2 small-2 medium-2 column"><h2 class="white-text">Instron</h2></div>
+        <div class="small-12 large-10 large-centered individual-page" id="intro" style="height:200px">
+            <div class="large-2 small-2 medium-2 column"><h2 class="white-text">Prints</h2></div>
             <div class="large-6 small-6 medium-6 column"><h2 style=""></h2></div>
-            <div class="large-2 small-2 medium-2 column ico-div"><i class="fa fa-cogs" style="" aria-hidden="true"></i></div>
+            <div class="large-2 small-2 medium-2 column ico-div"><i class="fa fa-gears right-ico" style="" aria-hidden="true"></i></div>
         </div>
         <div class="small-12 large-10 large-centered individual-page" id="intro" style="background-color:white;padding-top: 50px; padding-bottom:50px;">
             
             
             <div class="row rm-style-row" style="background-color:white;margin-bottom:0;">
-                <section id="quick-release-clamp" class="">
-            <!--<h4 class="exp-section">Quick Release Clamp</h4>-->
+                <section id="emoji-home-section" class="">
                 <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
-                    <img src="img/Instron/clamp/bikeclampassy.png" class="exp-img proj-img" style="">
-                    <img src="img/Instron/clamp/cupFit.gif" class="exp-img proj-img" style="width:300px;">
+                    <!--<img src="img/hackathon/emojiHome.png" class="exp-img proj-img" style="">-->
+                    <img src="img/hackathon/emojiHome.png" class="exp-img proj-img" style="width:300px;">
+                    <br>
+                    <img src="img/hackathon/lifemodel.PNG" class="exp-img proj-img" style="width:300px">
                 </div>
                 <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
                     <!--<h5 class="project-heading">Background</h5>-->
-                    <h4 class="exp-section">Quick Release Clamp</h4>
-                    <p>My favorite project at instron was designing this Quick-Release Clamp meant to secure 2 k-cup shaped specimen to a peel fixture. It was a great oppurtunity explore differnet materials and finishes while considering pricepoint, usability, and manufacturability.</p>
-                    <h5 class="project-heading">Challenges + Action</h5>
-                    <ul>
-                        <li><b>High Volume Testing</b> - I modeled the base part after a bike collar, and added a cam lever to reduce setup in between tests. </li> 
-                        <li><b>Multiple Specimen Sizes</b> - Shaped the cavity of collar to allow the less rigid of the samples to sit comfortably, but force the more rigid sample to bite into the rubber lining of the collar.</li>
-                        <li><b>Mounting to Fixture</b> - I opted to mount the lever by it's side rather than in the middle to make it easier to close. </li>
-                    </ul>
-                    <h5 class="project-heading">Skills/Tools Developed</h5>
-                    <ul class=".exp-list">
-                    <li><b>Solidworks FEA Tool</b> - Though I'd used the tool extensively throughout my co-op to determine if parts/systems were safe or in danger of breaking, this was my first time using it to get displacement information.</li>
-                    <!--<li><b>Material and Finish Selection</b> - Black annodized 1060 Aluminum </li>-->
-                    </ul>
+                    <h4 class="exp-section">Emoji Home</h4>
+                    <p>Emoji Home allows you to send emoji's to a central hub to control all of your connected devices. Send a detective emoji to find out who's at your front door or a lock emoji to arm your alarm system, the possibilities are endless!</p>
+                    <h5 class="project-heading">How we Built It</h5>
+                    <p>We used the twilio sms messaging api and node.js with express.js to write a server application that would handle incoming texts and execute the appropriate action and notify the user once the action has completed. We 3D printed a small floor plan and added LED's to visually represent calls to different devices.</p>
+                    <h5 class="project-heading">Contributions</h5>
+                    <p>I worked on testing and triggering the sound effects of each component using javascript. I also modeled and printed the "floor plan" used to represent the home. </p>
+                    <h5 class="project-heading">Accomplishments!</h5>
+                    <p>Learned how to use node.js and express.js as well as the twillio api!</p>
                 </div>
                     
                     
@@ -220,12 +216,10 @@
 
        <!-- Footer -->
     
-<footer class="">
+    <footer class="">
         <div class="container text-center">
             <a href="https://www.linkedin.com/in/jovaun-jackson"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
             <a href="https://github.com/XIIFulminata"><i class="fa fa-github" style="font-size:36px"></i></a>
-            <a href="mailto:jovaunjackson@gmail.com" target="_blank"><i class="fa fa-send-o" aria-hidden="true" style="font-size:36px"></i></a>
-            <a href="CS-Resume.pdf" target="_blank"><i class="fa fa-file-code-o" aria-hidden="true" style="font-size:36px"></i></a>
             <a href="Resume%20-%20Jovaun%20Jackson.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:36px"></i></a>
             <!--<img src="img/devpost-128.png" style="height:24px;width:auto;float:left;">-->
             <p>Copyright &copy; Jovaun Jackson 2016-2017</p>

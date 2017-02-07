@@ -11,6 +11,7 @@
 @media only screen and (max-width: 640px) {
     .fa-cogs{
         font-size:75px;
+        display: none;
     }
     .white-text{
         font-size:40px;
@@ -22,4 +23,8 @@
 
 p, h2, h4, h5{
     font-family: 'Roboto', sans-serif;
+}
+
+.exp-section {
+    color: #6a5787;
 }

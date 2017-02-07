@@ -1,11 +1,11 @@
 #intro {
-    background-color:lightgreen;
+    background-color:#e2b538;
     padding-top: 75px; 
     padding-bottom:0;
 }
 
 .exp-section {
-    color:lightgreen;
+    color:#e2b538;
 }
 
 .white-text{
@@ -18,7 +18,7 @@
     font-size:75px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1040px) {
     .right-ico{
         font-size:75px;
     }
@@ -27,6 +27,7 @@
     }
     .ico-div{
         margin-right: 50px;
+        display: none;
     }
 }
 

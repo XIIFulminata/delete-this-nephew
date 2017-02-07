@@ -21,6 +21,7 @@
 @media only screen and (max-width: 640px) {
     .right-ico{
         font-size:75px;
+        display: none;
     }
     .white-text{
         font-size:40px;

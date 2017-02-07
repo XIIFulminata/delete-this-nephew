@@ -15,7 +15,11 @@ $( ".instron-link" ).click(function() {
 
 
 $( ".GE-link" ).click(function() {
-  location.href="experience.html#ge-exp-card"
+  location.href="experience.html#go-to-ge"
+});
+
+$( ".REU-link" ).click(function() {
+  location.href="experience.html#go-to-reu"
 });
 
 /*$( ".REU-link" ).click(function() {
@@ -38,4 +42,12 @@ $( ".mlh-link" ).click(function() {
 
 $( ".3dp-link" ).click(function() {
   location.href="3dp.html"
+});
+
+$( ".wiz-link" ).click(function() {
+  location.href="wiz.html"
+});
+
+$( ".unprod-link" ).click(function() {
+    window.open('https://xiifulminata.github.io/Popcorn-Time-Clone/');
 });

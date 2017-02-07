@@ -1,0 +1,36 @@
+#intro {
+    background-color:#e05b4c;
+    padding-top: 75px; 
+    padding-bottom:0;
+}
+
+.exp-section {
+    color:#e05b4c;
+}
+
+.white-text{
+    color:white; 
+    font-family: 'Muli', sans-serif;
+}
+
+.right-ico{
+    color:white; 
+    font-size:75px;
+}
+
+@media only screen and (max-width: 640px) {
+    .right-ico{
+        font-size:75px;
+        display: none;
+    }
+    .white-text{
+        font-size:40px;
+    }
+    .ico-div{
+        margin-right: 50px;
+    }
+}
+
+p, h2, h4, h5{
+    font-family: 'Roboto', sans-serif;
+}

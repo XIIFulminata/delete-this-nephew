@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jovaun Jackson</title>
+    <title>Wizard's Chess</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
@@ -94,13 +94,17 @@
                 <section id="emoji-home-section" class="">
                 <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
                     <!--<img src="img/hackathon/emojiHome.png" class="exp-img proj-img" style="">-->
-                    <img src="img/hackathon/emojiHome.png" class="exp-img proj-img" style="width:300px;">
+                    <img src="img/chess/no-cover-sys-overview.png" class="exp-img proj-img" style="width:300px;height:auto">
                     <br>
-                    <img src="img/hackathon/lifemodel.PNG" class="exp-img proj-img" style="width:300px">
+                    <img src="img/chess/actual-img.png" class="exp-img proj-img" style="width:300px;height:auto">
                 </div>
                 <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
                     <!--<h5 class="project-heading">Background</h5>-->
-                    <h4 class="exp-section">Inspiration</h4>
+                    <!--
+    background-image: url(img/chess/wiz-gif.gif);
+    /* background-repeat: no-repeat; */
+    background-size: cover; -->
+                    <h4 class="exp-section">Board Overview</h4>
                     <p>Emoji Home allows you to send emoji's to a central hub to control all of your connected devices. Send a detective emoji to find out who's at your front door or a lock emoji to arm your alarm system, the possibilities are endless!</p>
                     <h5 class="project-heading">How we Built It</h5>
                     <p>We used the twilio sms messaging api and node.js with express.js to write a server application that would handle incoming texts and execute the appropriate action and notify the user once the action has completed. We 3D printed a small floor plan and added LED's to visually represent calls to different devices.</p>
@@ -109,31 +113,6 @@
                     <h5 class="project-heading">Accomplishments!</h5>
                     <p>Learned how to use node.js and express.js as well as the twillio api!</p>
                 </div>
-                    
-                    
-                
-                <!--<div class="column small-up-12 clamp-slider trailing25">
-                    <div style="border:solid lightgrey 1px;">
-                        <img src="img/Instron/clamp/fea.png" class="exp-img proj-img" style="">
-                        <p class="center-bold">5mm gap closes @100lbf</p>
-                    </div>
-                    <div style="border:solid lightgrey 1px;">
-                        <img src="img/Instron/clamp/cupFit.gif" class="exp-img proj-img" style="width:300px;">
-                         <p class="center-bold">Part With Both Specimen Sizes</p>
-                    </div>
-                    <div style="border:solid lightgrey 1px;">
-                        <img src="img/Instron/clamp/bike_clamp.PNG" class="exp-img proj-img" style="">
-                         <p class="center-bold">Base Part Model</p>
-                    </div>
-                    <div style="border:solid lightgrey 1px;">
-                        <img src="img/Instron/clamp/bike_system.PNG" class="exp-img proj-img" style="">
-                         <p class="center-bold">Base Part Model</p>
-                    </div>
-                    <div style="border:solid lightgrey 1px;">
-                        <img src="img/Instron/clamp/bikeclampassy.png" class="exp-img proj-img" style="">
-                         <p class="center-bold">Base Part Model</p>
-                    </div>
-                </div>-->
                </section> 
             </div>
             
@@ -142,7 +121,7 @@
             <div class="row rm-style-row" style="background-color:white;margin-bottom:0;">    
                 <section id="debris-shield">
                 <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
-                    <h4 class="exp-section">Debris Shields</h4>
+                    <h4 class="exp-section">Electronic Configuration</h4>
                     <p>I worked on several interlocked debris shields for different Instron devices. These are meant to keep high energy specimen breaks from harming users. </p>
                     <h5 class="project-heading">Challenges + Action</h5>
                     <ul>
@@ -156,7 +135,79 @@
                     </ul>
                 </div>
                 <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
-                    <img src="img/Instron/instron_shield.png" class="exp-img proj-img" style="height:400px;width:260px;">
+                    <img src="img/chess/elec-config.png" class="exp-img proj-img" style="width:260px;height:auto;">
+                </div>
+               </section> 
+            </div>
+            
+            <div class="section-sep large-12"></div>
+            
+            <div class="row rm-style-row" style="background-color:white;margin-bottom:0;">
+                <section id="emoji-home-section" class="">
+                <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
+                    <!--<img src="img/hackathon/emojiHome.png" class="exp-img proj-img" style="">-->
+                    <img src="img/chess/overlay-motor.png" class="exp-img proj-img" style="width:300px;height:auto">
+                    <br>
+                    <img src="img/chess/path.png" class="exp-img proj-img" style="width:250px;height:auto">
+                </div>
+                <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
+                    <!--<h5 class="project-heading">Background</h5>-->
+                    <h4 class="exp-section">Mechanical Function</h4>
+                    <p>Emoji Home allows you to send emoji's to a central hub to control all of your connected devices. Send a detective emoji to find out who's at your front door or a lock emoji to arm your alarm system, the possibilities are endless!</p>
+                    <h5 class="project-heading">How we Built It</h5>
+                    <p>We used the twilio sms messaging api and node.js with express.js to write a server application that would handle incoming texts and execute the appropriate action and notify the user once the action has completed. We 3D printed a small floor plan and added LED's to visually represent calls to different devices.</p>
+                    <h5 class="project-heading">Contributions</h5>
+                    <p>I worked on testing and triggering the sound effects of each component using javascript. I also modeled and printed the "floor plan" used to represent the home. </p>
+                    <h5 class="project-heading">Accomplishments!</h5>
+                    <p>Learned how to use node.js and express.js as well as the twillio api!</p>
+                </div>
+               </section> 
+            </div>
+            
+            <div class="section-sep large-12"></div>
+            
+            <div class="row rm-style-row" style="background-color:white;margin-bottom:0;">    
+                <section id="debris-shield">
+                <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
+                    <h4 class="exp-section">Project MGMT / Build Cost</h4>
+                    <p>I worked on several interlocked debris shields for different Instron devices. These are meant to keep high energy specimen breaks from harming users. </p>
+                    <h5 class="project-heading">Challenges + Action</h5>
+                    <ul>
+                        <li><b>Safety Signoff</b> - Went through the rigorous new product screening</li> 
+                        <li><b>Meeting Internal/External Specs</b> - choose one amirite?? lots of spaces</li>
+                    </ul>
+                    <h5 class="project-heading">Skills/Tools Developed</h5>
+                    <ul class=".exp-list">
+                    <li><b>Vendor MGMT</b> - Bothered venodr a lot because they. </li>
+                    <li><b>Hand Tools</b> - Assembled it </li>
+                    </ul>
+                </div>
+                <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
+                    <img src="img/chess/BOM.png" class="exp-img proj-img" style="width:350px;height:auto;">
+                </div>
+               </section> 
+            </div>
+            
+            <div class="section-sep large-12"></div>
+            
+            <div class="row rm-style-row" style="background-color:white;margin-bottom:0;">
+                <section id="emoji-home-section" class="">
+                <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
+                    <!--<img src="img/hackathon/emojiHome.png" class="exp-img proj-img" style="">-->
+                    <img src="img/chess/1arduino.png" class="exp-img proj-img" style="width:300px;height:auto">
+                    <br>
+                    <img src="img/chess/2arduino.png" class="exp-img proj-img" style="width:300px;height:auto">
+                </div>
+                <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
+                    <!--<h5 class="project-heading">Background</h5>-->
+                    <h4 class="exp-section">Software</h4>
+                    <p>Emoji Home allows you to send emoji's to a central hub to control all of your connected devices. Send a detective emoji to find out who's at your front door or a lock emoji to arm your alarm system, the possibilities are endless!</p>
+                    <h5 class="project-heading">How we Built It</h5>
+                    <p>We used the twilio sms messaging api and node.js with express.js to write a server application that would handle incoming texts and execute the appropriate action and notify the user once the action has completed. We 3D printed a small floor plan and added LED's to visually represent calls to different devices.</p>
+                    <h5 class="project-heading">Contributions</h5>
+                    <p>I worked on testing and triggering the sound effects of each component using javascript. I also modeled and printed the "floor plan" used to represent the home. </p>
+                    <h5 class="project-heading">Accomplishments!</h5>
+                    <p>Learned how to use node.js and express.js as well as the twillio api!</p>
                 </div>
                </section> 
             </div>
@@ -166,42 +217,34 @@
             <div class="row rm-style-row" style="background-color:white;margin-bottom:0;">    
                 <section id="instron-gallery">
                     <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
-                        <h4 class="exp-section">Gallery</h4>    
+                        <h4 class="exp-section">Demo Gallery</h4>    
                     </div>
+                    <!--
+                        https://youtu.be/lrMkcwqQBRc bishop
+                        https://youtu.be/5ePO5zc7QJ8 fast bishop internals
+                        https://youtu.be/4DosI-0XybM knight obstructed
+                        https://youtu.be/mDKAxX7vrOQ rook takes queen
+                    -->
                     <div class="row large-12 large-centered columns project-galleries" style="padding-top:0">
-                        <div class="row small-up-2 medium-up-4" style="padding-top:0">
+                        <div class="row small-up-1 medium-up-2" style="padding-top:0">
                             <div class="column column-block" style="">
-                                <div class="project-gal-wrapper" id="">
-                                    <img src="img/Instron/draw1.png">
+                                <div class="project-gal-wrapper" id="fast-internals">
+                                    <iframe width="450" height="253" src="https://www.youtube.com/embed/5ePO5zc7QJ8" frameborder="0" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="column column-block" style="">
-                                <div class="project-gal-wrapper" id="">
-                                    <img src="img/Instron/clamp/bike_system.PNG">
+                                <div class="project-gal-wrapper" id="bishop">
+                                   <iframe width="450" height="253" src="https://www.youtube.com/embed/lrMkcwqQBRc" frameborder="0" allowfullscreen></iframe>
                                 </div>
-                            </div><div class="column column-block" style="">
+                            </div>
+                            <div class="column column-block" style="knight">
                                 <div class="project-gal-wrapper" id="">
-                                    <img src="img/Instron/bracket1.png">
+                                    <iframe width="450" height="253" src="https://www.youtube.com/embed/4DosI-0XybM" frameborder="0" allowfullscreen></iframe>
                                 </div>
-                            </div><div class="column column-block" style="">
-                                <div class="project-gal-wrapper" id="">
-                                    <img src="img/Instron/clamp/fea.png">
-                                </div>
-                            </div><div class="column column-block" style="">
-                                <div class="project-gal-wrapper" id="">
-                                    <img src="img/Instron/pulltab_drafted.PNG">
-                                </div>
-                            </div><div class="column column-block" style="">
-                                <div class="project-gal-wrapper" id="">
-                                    <img src="img/Instron/RevB_Holder_Base.PNG">
-                                </div>
-                            </div><div class="column column-block" style="">
-                                <div class="project-gal-wrapper" id="">
-                                    <img src="img/Instron/wedge-draw.png">
-                                </div>
-                            </div><div class="column column-block" style="">
-                                <div class="project-gal-wrapper" id="">
-                                    <img src="img/Instron/annoying1.png">
+                            </div>
+                            <div class="column column-block" style="">
+                                <div class="project-gal-wrapper" id="rook">
+                                    <iframe width="450" height="253" src="https://www.youtube.com/embed/mDKAxX7vrOQ" frameborder="0" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -216,10 +259,12 @@
 
        <!-- Footer -->
     
-    <footer class="">
+<footer class="">
         <div class="container text-center">
             <a href="https://www.linkedin.com/in/jovaun-jackson"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
             <a href="https://github.com/XIIFulminata"><i class="fa fa-github" style="font-size:36px"></i></a>
+            <a href="mailto:jovaunjackson@gmail.com" target="_blank"><i class="fa fa-send-o" aria-hidden="true" style="font-size:36px"></i></a>
+            <a href="CS-Resume.pdf" target="_blank"><i class="fa fa-file-code-o" aria-hidden="true" style="font-size:36px"></i></a>
             <a href="Resume%20-%20Jovaun%20Jackson.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true" style="font-size:36px"></i></a>
             <!--<img src="img/devpost-128.png" style="height:24px;width:auto;float:left;">-->
             <p>Copyright &copy; Jovaun Jackson 2016-2017</p>

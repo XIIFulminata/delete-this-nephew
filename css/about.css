@@ -66,3 +66,9 @@ https://css-tricks.com/snippets/css/typewriter-effect/
   from, to { border-color: transparent }
   50% { border-color: black; }
 }
+
+.in-progress-pill {
+    background-color: lightcoral;
+    color: firebrick;
+    border-radius: 10%
+}

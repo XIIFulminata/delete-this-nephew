@@ -441,3 +441,14 @@ body {
 .individual-page {
     border:solid lightgrey 2px;
 }
+
+.skill-ico {
+    height: 30px;
+    width: auto;
+    padding-bottom: 5px;
+    
+}
+
+.vid-block {
+    /*margin: auto;*/
+}

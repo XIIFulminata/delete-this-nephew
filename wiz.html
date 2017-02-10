@@ -39,7 +39,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
 </head>
 
 <body  id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -94,9 +94,9 @@
                 <section id="emoji-home-section" class="">
                 <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
                     <!--<img src="img/hackathon/emojiHome.png" class="exp-img proj-img" style="">-->
-                    <img src="img/chess/no-cover-sys-overview.png" class="exp-img proj-img" style="width:300px;height:auto">
+                    <img src="img/chess/no-cover-sys-overview.png" class="exp-img proj-img" style="width:350px;height:auto">
                     <br>
-                    <img src="img/chess/actual-img.png" class="exp-img proj-img" style="width:300px;height:auto">
+                    <img src="img/chess/BOM.png" class="exp-img proj-img" style="width:350px;height:auto">
                 </div>
                 <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
                     <!--<h5 class="project-heading">Background</h5>-->
@@ -104,14 +104,12 @@
     background-image: url(img/chess/wiz-gif.gif);
     /* background-repeat: no-repeat; */
     background-size: cover; -->
-                    <h4 class="exp-section">Board Overview</h4>
-                    <p>Emoji Home allows you to send emoji's to a central hub to control all of your connected devices. Send a detective emoji to find out who's at your front door or a lock emoji to arm your alarm system, the possibilities are endless!</p>
-                    <h5 class="project-heading">How we Built It</h5>
-                    <p>We used the twilio sms messaging api and node.js with express.js to write a server application that would handle incoming texts and execute the appropriate action and notify the user once the action has completed. We 3D printed a small floor plan and added LED's to visually represent calls to different devices.</p>
-                    <h5 class="project-heading">Contributions</h5>
-                    <p>I worked on testing and triggering the sound effects of each component using javascript. I also modeled and printed the "floor plan" used to represent the home. </p>
-                    <h5 class="project-heading">Accomplishments!</h5>
-                    <p>Learned how to use node.js and express.js as well as the twillio api!</p>
+                    <h4 class="exp-section">Project Overview</h4>
+                    <p>Driven by a borderline obssessive love of Harry Potter and a fear of final exams, 2 friends and I designed and constructed a magnetic wizard's chess board in place of a traditional final. The project was heavily influenced by <a href="http://www.robert-rudolph.com/#/wizard-chess/">this project</a> by Robert Rudolph. Our system dimensions ran up to 18"x18"x6" with an active area (wherein pieces are moveable) of ~14"x12", and our cost totaled to $205.</p>
+                    <h5 class="project-heading">Function</h5>
+                    <p>I modeled and printed supports and carriages for each motor and axis. Using an arduino, we drive 2 stepper motors and connected belts to move the main carriage. The main carriage supports an electromagnet which can also be activated and decativated with the arduino. We embedded magnets in the chess pieces to allow the electromagnet to drag them, and acheive motion in the system. The system ran directly from a computer, and was powered by 12V DC.</p>
+                    <h5 class="project-heading">Personal Accomplishments</h5>
+                    <p>This was the first time I had full control of a 3D Printer, and of course I went mad with power. Given our time crunch, I got a lot of experience with rapid prototyping using a FDM printer. I was also able to develop my cad skill while designing the necessary supports and system assembly. The experience I didn't consider on the way in was the exposure to the hand tools needed to assemble the box that housed the system components.</p>
                 </div>
                </section> 
             </div>
@@ -122,17 +120,9 @@
                 <section id="debris-shield">
                 <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
                     <h4 class="exp-section">Electronic Configuration</h4>
-                    <p>I worked on several interlocked debris shields for different Instron devices. These are meant to keep high energy specimen breaks from harming users. </p>
-                    <h5 class="project-heading">Challenges + Action</h5>
-                    <ul>
-                        <li><b>Safety Signoff</b> - Went through the rigorous new product screening</li> 
-                        <li><b>Meeting Internal/External Specs</b> - choose one amirite?? lots of spaces</li>
-                    </ul>
-                    <h5 class="project-heading">Skills/Tools Developed</h5>
-                    <ul class=".exp-list">
-                    <li><b>Vendor MGMT</b> - Bothered venodr a lot because they. </li>
-                    <li><b>Hand Tools</b> - Assembled it </li>
-                    </ul>
+                    <p>Motion in the system was reliant upon 2 Nema 17 stepper motors. They're driven by an arduino and an easydriver board. The arduino required a 12V power source, and we used 8 AA batteries.</p>
+                    <h5 class="project-heading">Challenges</h5>
+                    <p>One consideration we missed was how the drain on the batteries would affect the performance. This resulted in motion stopping at random times with us attributing to other issues potential issues. In a future iteration we would like use a more consistent source.</p>
                 </div>
                 <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
                     <img src="img/chess/elec-config.png" class="exp-img proj-img" style="width:260px;height:auto;">
@@ -146,72 +136,26 @@
                 <section id="emoji-home-section" class="">
                 <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
                     <!--<img src="img/hackathon/emojiHome.png" class="exp-img proj-img" style="">-->
-                    <img src="img/chess/overlay-motor.png" class="exp-img proj-img" style="width:300px;height:auto">
+                    <img src="img/chess/overlay-motor.png" class="exp-img proj-img" style="width:250px;height:auto">
                     <br>
                     <img src="img/chess/path.png" class="exp-img proj-img" style="width:250px;height:auto">
                 </div>
                 <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
                     <!--<h5 class="project-heading">Background</h5>-->
                     <h4 class="exp-section">Mechanical Function</h4>
-                    <p>Emoji Home allows you to send emoji's to a central hub to control all of your connected devices. Send a detective emoji to find out who's at your front door or a lock emoji to arm your alarm system, the possibilities are endless!</p>
-                    <h5 class="project-heading">How we Built It</h5>
-                    <p>We used the twilio sms messaging api and node.js with express.js to write a server application that would handle incoming texts and execute the appropriate action and notify the user once the action has completed. We 3D printed a small floor plan and added LED's to visually represent calls to different devices.</p>
-                    <h5 class="project-heading">Contributions</h5>
-                    <p>I worked on testing and triggering the sound effects of each component using javascript. I also modeled and printed the "floor plan" used to represent the home. </p>
-                    <h5 class="project-heading">Accomplishments!</h5>
-                    <p>Learned how to use node.js and express.js as well as the twillio api!</p>
+                    <p>The rotation of the stepper motors rotates an attached pulley and belt. The belts are attached to printed carrages that work in tandem to move the electromagnet. </p>
+                    <h5 class="project-heading">Constraints</h5>
+                    <p>We wanted to ensure the smoothest and most user-friendly gameplay possible, meaning a user at the very least should be able to perform any legal move. Any horizontal motion can be acheived with a single motor. For a bishop's pure diagonal motion we had to drive both motors simultaneously. The knight posed the largest issue in that magnets are not the best for launching pieces with precision. We decided that the pieces had to be able to move in between one another. Rather than taking the traditional path for a knight (red in path image), we made our motions based on a half step so that the knight could take an interstitial path (green in path image).</p>
+                    <h5 class="project-heading">Testing</h5>
+                    <p>To clarify some of the gaps in the motor documentaition, we tested how far 1600 steps would take us in each axis, and used that to specify our step size. </p>
+                    <div class="" lang="latex" style="align-content:center">
+                    numSteps = 1600(\frac{Desired Displacement [in]}{1.18 [in]})
+                    </div>
                 </div>
                </section> 
             </div>
             
-            <div class="section-sep large-12"></div>
-            
-            <div class="row rm-style-row" style="background-color:white;margin-bottom:0;">    
-                <section id="debris-shield">
-                <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
-                    <h4 class="exp-section">Project MGMT / Build Cost</h4>
-                    <p>I worked on several interlocked debris shields for different Instron devices. These are meant to keep high energy specimen breaks from harming users. </p>
-                    <h5 class="project-heading">Challenges + Action</h5>
-                    <ul>
-                        <li><b>Safety Signoff</b> - Went through the rigorous new product screening</li> 
-                        <li><b>Meeting Internal/External Specs</b> - choose one amirite?? lots of spaces</li>
-                    </ul>
-                    <h5 class="project-heading">Skills/Tools Developed</h5>
-                    <ul class=".exp-list">
-                    <li><b>Vendor MGMT</b> - Bothered venodr a lot because they. </li>
-                    <li><b>Hand Tools</b> - Assembled it </li>
-                    </ul>
-                </div>
-                <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
-                    <img src="img/chess/BOM.png" class="exp-img proj-img" style="width:350px;height:auto;">
-                </div>
-               </section> 
-            </div>
-            
-            <div class="section-sep large-12"></div>
-            
-            <div class="row rm-style-row" style="background-color:white;margin-bottom:0;">
-                <section id="emoji-home-section" class="">
-                <div class="column exp-logo pad-col small-12 medium-12 large-5" style="">
-                    <!--<img src="img/hackathon/emojiHome.png" class="exp-img proj-img" style="">-->
-                    <img src="img/chess/1arduino.png" class="exp-img proj-img" style="width:300px;height:auto">
-                    <br>
-                    <img src="img/chess/2arduino.png" class="exp-img proj-img" style="width:300px;height:auto">
-                </div>
-                <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
-                    <!--<h5 class="project-heading">Background</h5>-->
-                    <h4 class="exp-section">Software</h4>
-                    <p>Emoji Home allows you to send emoji's to a central hub to control all of your connected devices. Send a detective emoji to find out who's at your front door or a lock emoji to arm your alarm system, the possibilities are endless!</p>
-                    <h5 class="project-heading">How we Built It</h5>
-                    <p>We used the twilio sms messaging api and node.js with express.js to write a server application that would handle incoming texts and execute the appropriate action and notify the user once the action has completed. We 3D printed a small floor plan and added LED's to visually represent calls to different devices.</p>
-                    <h5 class="project-heading">Contributions</h5>
-                    <p>I worked on testing and triggering the sound effects of each component using javascript. I also modeled and printed the "floor plan" used to represent the home. </p>
-                    <h5 class="project-heading">Accomplishments!</h5>
-                    <p>Learned how to use node.js and express.js as well as the twillio api!</p>
-                </div>
-               </section> 
-            </div>
-            
+                        
             <div class="section-sep large-12"></div>
             
             <div class="row rm-style-row" style="background-color:white;margin-bottom:0;">    
@@ -226,25 +170,25 @@
                         https://youtu.be/mDKAxX7vrOQ rook takes queen
                     -->
                     <div class="row large-12 large-centered columns project-galleries" style="padding-top:0">
-                        <div class="row small-up-1 medium-up-2" style="padding-top:0">
-                            <div class="column column-block" style="">
+                        <div class="row small-up-1 large-up-2" style="padding-top:0">
+                            <div class="column column-block vid-block" style="">
                                 <div class="project-gal-wrapper" id="fast-internals">
-                                    <iframe width="450" height="253" src="https://www.youtube.com/embed/5ePO5zc7QJ8" frameborder="0" allowfullscreen></iframe>
+                                    <iframe width="400" height="225" src="https://www.youtube.com/embed/5ePO5zc7QJ8" frameborder="0" allowfullscreen></iframe>
                                 </div>
                             </div>
-                            <div class="column column-block" style="">
+                            <div class="column column-block vid-block" style="">
                                 <div class="project-gal-wrapper" id="bishop">
-                                   <iframe width="450" height="253" src="https://www.youtube.com/embed/lrMkcwqQBRc" frameborder="0" allowfullscreen></iframe>
+                                   <iframe width="400" height="225" src="https://www.youtube.com/embed/lrMkcwqQBRc" frameborder="0" allowfullscreen></iframe>
                                 </div>
                             </div>
-                            <div class="column column-block" style="knight">
+                            <div class="column column-block vid-block" style="knight">
                                 <div class="project-gal-wrapper" id="">
-                                    <iframe width="450" height="253" src="https://www.youtube.com/embed/4DosI-0XybM" frameborder="0" allowfullscreen></iframe>
+                                    <iframe width="400" height="225" src="https://www.youtube.com/embed/4DosI-0XybM" frameborder="0" allowfullscreen></iframe>
                                 </div>
                             </div>
-                            <div class="column column-block" style="">
+                            <div class="column column-block vid-block" style="">
                                 <div class="project-gal-wrapper" id="rook">
-                                    <iframe width="450" height="253" src="https://www.youtube.com/embed/mDKAxX7vrOQ" frameborder="0" allowfullscreen></iframe>
+                                    <iframe width="400" height="225" src="https://www.youtube.com/embed/mDKAxX7vrOQ" frameborder="0" allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>

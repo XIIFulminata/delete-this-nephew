@@ -105,9 +105,9 @@
     /* background-repeat: no-repeat; */
     background-size: cover; -->
                     <h4 class="exp-section">Project Overview</h4>
-                    <p>Driven by a borderline obssessive love of Harry Potter and a fear of final exams, 2 friends and I designed and constructed a magnetic wizard's chess board in place of a traditional final. The project was heavily influenced by <a href="http://www.robert-rudolph.com/#/wizard-chess/">this project</a> by Robert Rudolph. Our system dimensions ran up to 18"x18"x6" with an active area (wherein pieces are moveable) of ~14"x12", and our cost totaled to $205.</p>
+                    <p>Driven by a borderline obsessive love of Harry Potter and a fear of final exams, 2 friends and I designed and constructed a magnetic wizard's chess board in place of a traditional final. The project was heavily influenced by <a href="http://www.robert-rudolph.com/#/wizard-chess/">this project</a> by Robert Rudolph. Our system dimensions ran up to 18"x18"x6" with an active area (wherein pieces are moveable) of ~14"x12", and our cost totaled to $205.</p>
                     <h5 class="project-heading">Function</h5>
-                    <p>I modeled and printed supports and carriages for each motor and axis. Using an arduino, we drive 2 stepper motors and connected belts to move the main carriage. The main carriage supports an electromagnet which can also be activated and decativated with the arduino. We embedded magnets in the chess pieces to allow the electromagnet to drag them, and acheive motion in the system. The system ran directly from a computer, and was powered by 12V DC.</p>
+                    <p>I modeled and printed supports and carriages for each motor and axis. Using an Arduino, we drive 2 stepper motors and connected belts to move the main carriage. The main carriage supports an electromagnet which can also be activated and deactivated with the Arduino. We embedded magnets in the chess pieces to allow the electromagnet to drag them, and achieve motion in the system. The system ran directly from a computer, and was powered by 12V DC.</p>
                     <h5 class="project-heading">Personal Accomplishments</h5>
                     <p>This was the first time I had full control of a 3D Printer, and of course I went mad with power. Given our time crunch, I got a lot of experience with rapid prototyping using a FDM printer. I was also able to develop my cad skill while designing the necessary supports and system assembly. The experience I didn't consider on the way in was the exposure to the hand tools needed to assemble the box that housed the system components.</p>
                 </div>
@@ -120,7 +120,7 @@
                 <section id="debris-shield">
                 <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
                     <h4 class="exp-section">Electronic Configuration</h4>
-                    <p>Motion in the system was reliant upon 2 Nema 17 stepper motors. They're driven by an arduino and an easydriver board. The arduino required a 12V power source, and we used 8 AA batteries.</p>
+                    <p>Motion in the system was reliant upon 2 NEMA17 stepper motors. They're driven by an Arduino and an EasyDriver board. The Arduino required a 12V power source, and we used 8 AA batteries.</p>
                     <h5 class="project-heading">Challenges</h5>
                     <p>One consideration we missed was how the drain on the batteries would affect the performance. This resulted in motion stopping at random times with us attributing to other issues potential issues. In a future iteration we would like use a more consistent source.</p>
                 </div>
@@ -143,11 +143,11 @@
                 <div class="column exp-body pad-col small-12 medium-12 large-7" style="">
                     <!--<h5 class="project-heading">Background</h5>-->
                     <h4 class="exp-section">Mechanical Function</h4>
-                    <p>The rotation of the stepper motors rotates an attached pulley and belt. The belts are attached to printed carrages that work in tandem to move the electromagnet. </p>
+                    <p>The rotation of the stepper motors rotates an attached pulley and belt. The belts are attached to printed carriages that work in tandem to move the electromagnet.</p>
                     <h5 class="project-heading">Constraints</h5>
-                    <p>We wanted to ensure the smoothest and most user-friendly gameplay possible, meaning a user at the very least should be able to perform any legal move. Any horizontal motion can be acheived with a single motor. For a bishop's pure diagonal motion we had to drive both motors simultaneously. The knight posed the largest issue in that magnets are not the best for launching pieces with precision. We decided that the pieces had to be able to move in between one another. Rather than taking the traditional path for a knight (red in path image), we made our motions based on a half step so that the knight could take an interstitial path (green in path image).</p>
+                    <p>We wanted to ensure the smoothest and most user-friendly gameplay possible, meaning a user at the very least should be able to perform any legal move. Any horizontal motion can be achieved with a single motor. For a bishop's pure diagonal motion, we had to drive both motors simultaneously. The knight posed the largest issue in that magnets are not the best for launching pieces with precision. We decided that the pieces had to be able to move in between one another. Rather than taking the traditional path for a knight (red in path image), we made our motions based on a half-step so that the knight could take an interstitial path (green in path image).</p>
                     <h5 class="project-heading">Testing</h5>
-                    <p>To clarify some of the gaps in the motor documentaition, we tested how far 1600 steps would take us in each axis, and used that to specify our step size. </p>
+                    <p>To clarify some of the gaps in the motor documentation, we tested how far 1600 steps would take us in each axis, and used that to specify our step size.</p>
                     <img src="img/latex%20eqn.gif">
                     <!--<div class="" lang="latex" style="align-content:center">
                     numSteps = 1600(\frac{Desired Displacement [in]}{1.18 [in]})

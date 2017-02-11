@@ -452,3 +452,9 @@ body {
 .vid-block {
     /*margin: auto;*/
 }
+
+.scroll-thumb {
+    height: 60px;
+    width: 60px;
+    opacity: .9;
+}

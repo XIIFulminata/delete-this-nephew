@@ -49,7 +49,8 @@ $( ".wiz-link" ).click(function() {
 });
 
 $( ".unprod-link" ).click(function() {
-    window.open('https://xiifulminata.github.io/Popcorn-Time-Clone/');
+    /*window.open('https://xiifulminata.github.io/Popcorn-Time-Clone/');*/
+    location.href="#"
 });
 
 $( document ).ready(function() {

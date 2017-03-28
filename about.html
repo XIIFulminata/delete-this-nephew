@@ -46,7 +46,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-               <a class="navbar-brand navButton" id="navHomeLink" href="#">
+               <a class="navbar-brand navButton" id="navHomeLink" href="index.html">
                     <span class="light"><h5><b>J<img src="img/gear.png" style="width:20px; height:auto">vaun Jacks<img src="img/gear.png" style="width:20px; height:auto">n</b></h5></span>
                 </a>
                 <!--<a class="navbar-brand navButton" id="navHomeLink" href="index.html">
@@ -62,7 +62,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="navButton" href="about.html" style="text-decoration: none"><h6>About Me</h6></a>
+                        <a class="navButton" href="#" style="background-color: #eee; text-decoration: none"><h6>About Me</h6></a>
                     </li>
                     <li>
                         <a class="navButton" href="experience.html"><h6>Experience</h6></a>
@@ -78,18 +78,50 @@
     </nav>
 
 <!-- Intro Section -->
-    <div class="row" id="aboutSection">
-        <div class="small-12 large-10 large-centered individual-page" id="" style="">
-            <div class="row small-up-12">
-                <img src="img/sig.png">
-                <div class="row typewriter large-12">
-                  <h3>{Front End Developer | Mechanical Engineer}</h3>
-                </div>
-                <div class="columns small-up-12 text-block">
-                    <h4>Hey, I'm Jovaun. I'm a 4th year studying Mechanical Engineering at Northeastern University, and I'm interested in web development and product design. I like creating cool looking stuff, and seeing people enjoy it. Take a look around and feel free to <a href="about.html#contactDiv" target="_blank">contact me</a>. </h4>
-                    <!--<h4>Hey, I'm Jovaun. I'm a 4th year studying Mechanical Engineering at Northeastern University with a minor in Computer Science. I'm interested in software development, 3D Printing, and food. Right now I'm working on finding an internship, getting into grad school, and animating that signature at the top. Feel free to contact me or take a look around. </h4> -->
+    <div class="row" id="">
+        <div class="col small-12 large-10 large-centered individual-page" id="" style="height:1500px;">
+            <div class="row" style="margin-bottom: 200px;padding-top: 200px;">
+                
+                <div class ="col" style="width:35%; margin:0;float:left;">
+                <img src="img/FB.jpg" style="width:300px;margin:40px"></div>
+                <div class ="col" style="width:60%;float:right;background-color:white; padding:10px; box-shadow: 0px 0px 5px #888888">
+                    <h5 style="text-align: justify;margin-bottom:20px;">I have a habit of looking at cool things, and wondering if I could have made them. While the answer tends to be no, I still spend a decent amount of time modeling props I like, or trying to build web apps.</h5>
+                
+               <h5 style="text-align: justify;margin-bottom:20px">For fun, I like to dedicate an unreasonable amount of time to online gaming. I also love weightlifting. I just hit a 3 plate bench, and I'm hoping to hit 4 eventually. The rest of my time is spent reading fantasy books, considering reading something else, and going back to reading fantasy books.</h5>
+                    
+                    <h5 style="text-align: justify;">I'm a New York native, and I go to school in Boston. I'm always looking for opportunities to develop as an engineer, so feel free to contact me below, or grab a resume from the footer! </h5>
+                    
                     
                 </div>
+                
+                </div>
+                <section class="wrapper style1 align-center">
+						<div class="inner medium" id="contactDiv">
+							<h2 style="text-align:center">Contact Me</h2>
+							<form method="post" action="https://formspree.io/jovaunjacskon@gmail.com"
+      method="POST"> <!--  http://www.html-form-guide.com/email-form/html-email-form.html    needs php form  -->
+								<div class="field half first">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" value="" />
+								</div>
+								<div class="field half">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" value="" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="6"></textarea>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+                            
+                            
+                                                                                                                            
+                            
+						</div>
+					</section>
             </div>
              <!--<div class="small-12 large-4">
                 <img style="margin-top: 50px;" src="img/SerPounce.jpg">
@@ -108,7 +140,7 @@
             
     
         </div>
-    </div>
+  
     
 
        <!-- Footer -->

@@ -54,41 +54,41 @@ $( ".unprod-link" ).click(function() {
 });
 
 $( document ).ready(function() {
-    $( "#qrc2" ).hide();
-    $( "#qrc3" ).hide();
-    $( "#qrc4" ).hide();
-    $( "#qrc5" ).hide();
+    $( ".qrc2" ).hide();
+    $( ".qrc3" ).hide();
+    $( ".qrc4" ).hide();
+    $( ".qrc5" ).hide();
 });
 
 function clearQRC() {
-    $( "#qrc1" ).hide();
-    $( "#qrc2" ).hide();
-    $( "#qrc3" ).hide();
-    $( "#qrc4" ).hide();
-    $( "#qrc5" ).hide();
+    $( ".qrc1" ).hide();
+    $( ".qrc2" ).hide();
+    $( ".qrc3" ).hide();
+    $( ".qrc4" ).hide();
+    $( ".qrc5" ).hide();
 }
 
 $( "#qrc1-f" ).click(function() {
     clearQRC();
-    $( "#qrc1" ).show();
+    $( ".qrc1" ).show();
 });
 
 $( "#qrc2-f" ).click(function() {
     clearQRC();
-    $( "#qrc2" ).show();
+    $( ".qrc2" ).show();
 });
 
 $( "#qrc3-f" ).click(function() {
     clearQRC();
-    $( "#qrc3" ).show();
+    $( ".qrc3" ).show();
 });
 
 $( "#qrc4-f" ).click(function() {
     clearQRC();
-    $( "#qrc4" ).show();
+    $( ".qrc4" ).show();
 });
 
 $( "#qrc5-f" ).click(function() {
     clearQRC();
-    $( "#qrc5" ).show();
+    $( ".qrc5" ).show();
 });
